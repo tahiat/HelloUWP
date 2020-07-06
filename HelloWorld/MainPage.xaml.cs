@@ -29,7 +29,13 @@ namespace HelloWorld
 
         private void myButton_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Challenge1), null);
+            // laudible challenge grid
+            //this.Frame.Navigate(typeof(Challenge1), null);
+
+            // legendary challenge
+            //this.Frame.Navigate(typeof(LegendaryChallenge_StackPanel), null);
+            this.Frame.Navigate(typeof(SplitView), null);
+
 
         }
     }
