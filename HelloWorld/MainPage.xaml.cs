@@ -34,9 +34,12 @@ namespace HelloWorld
 
             // legendary challenge
             //this.Frame.Navigate(typeof(LegendaryChallenge_StackPanel), null);
-            this.Frame.Navigate(typeof(SplitView), null);
+            this.Frame.Navigate(typeof(SplitView), null);            
+        }
 
-
+        private void FlyoutBtn_Click(object sender, RoutedEventArgs e)
+        {
+            MyFlyout.Hide();
         }
     }
 }
