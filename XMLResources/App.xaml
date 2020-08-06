@@ -1,0 +1,20 @@
+﻿<Application
+    x:Class="XMLResources.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:XMLResources">
+    <!--  To use resources accross all files in the same project-->
+    <Application.Resources>
+        <SolidColorBrush x:Key="MyApplicationBrush" 
+                         Color="Red"
+                         />
+        <x:String x:Key="ApplicationGreetings">Hello world</x:String>
+        <Style TargetType="Button" x:Key="MyApplicationButtonStyle">
+            <Setter Property="Background" Value="Blue"/>
+            <Setter Property="FontFamily" Value="Arial Black"/>
+            <Setter Property="FontSize" Value="36"/>
+
+        </Style>
+    </Application.Resources>
+
+</Application>
